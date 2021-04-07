@@ -11,7 +11,7 @@
 userBill = int(input("Total bill amount? "))
 
 # declare some variable that stores the level of service 
-# request that number from the user
+# request that value from the user
 serviceLevel = input("Level of service? ")
 
 # declare a variable that will store the tip
@@ -29,8 +29,7 @@ elif serviceLevel == "fair":
 elif serviceLevel == "bad":
     userTip = userBill * 0.1
 else:
-    # print("Invalid input.")
-    userTip = userBill * 0.1
+    print("Invalid input.")
 
 # Final total = the user's tip + initial amount
 # example: $100 (userBill) + $10 (userTip) = $110 (final)
