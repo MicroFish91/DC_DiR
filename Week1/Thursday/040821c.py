@@ -1,6 +1,3 @@
-
-
-
 # Make a clock
 # Hours, Minutes, Seconds
 # Minutes in an hour (60)
