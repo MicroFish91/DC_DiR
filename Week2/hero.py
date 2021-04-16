@@ -1,3 +1,5 @@
+# Debugging student's code
+
 import random
 class Character:
     def __init__(self, health, power):
